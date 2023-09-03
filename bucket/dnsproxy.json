@@ -1,18 +1,23 @@
 {
-    "version": "0.51.0",
+    "version": "0.54.0",
     "description": "Simple DNS proxy with DoH, DoT, DoQ and DNSCrypt support",
     "homepage": "https://github.com/AdguardTeam/dnsproxy",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.51.0/dnsproxy-windows-amd64-v0.51.0.zip",
-            "hash": "0d1c46696ff992de9fe67b850e52180b39f1f6e0259ed6f70a3c093f2b6fb5ee",
+            "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.54.0/dnsproxy-windows-amd64-v0.54.0.zip",
+            "hash": "ac9744fd3cc5be7c9b8d1ab890602c8ad5cd65ca80304e80a634eef2b403b291",
             "extract_dir": "windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.51.0/dnsproxy-windows-386-v0.51.0.zip",
-            "hash": "1faf1af822a878fbe7a00513746090a0ac876ca7967d9a419b571255f3ccbeaf",
+            "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.54.0/dnsproxy-windows-386-v0.54.0.zip",
+            "hash": "c510ae84c2552ba8d48698c47d1a1aed4005fd6a0fc8e786380a8020ebe372de",
             "extract_dir": "windows-386"
+        },
+        "arm64": {
+            "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.53.1/dnsproxy-windows-arm64-v0.53.1.zip",
+            "hash": "018424bca2a6940d89015822be0af442fced751dde32424c7a1060ae4ce7be4f",
+            "extract_dir": "windows-arm64"
         }
     },
     "bin": "dnsproxy.exe",
@@ -24,6 +29,9 @@
             },
             "32bit": {
                 "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v$version/dnsproxy-windows-386-v$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v$version/dnsproxy-windows-arm64-v$version.zip"
             }
         }
     }

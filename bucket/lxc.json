@@ -1,12 +1,12 @@
 {
-    "version": "5.15",
+    "version": "5.17.0",
     "description": "LXD client",
     "homepage": "https://linuxcontainers.org/lxd",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://packages.chocolatey.org/lxc.5.15.nupkg",
-            "hash": "afdb9ed93fbcc85fbf0664f60df7bcddb4698a0ed6887d3b7638513831560ec2"
+            "url": "https://packages.chocolatey.org/lxc.5.17.0.nupkg",
+            "hash": "f242c814c792d4aba1d5c6ebb5c56eab61587d58b19fc241bf7afb7bba7d3f95"
         }
     },
     "extract_dir": "tools",
